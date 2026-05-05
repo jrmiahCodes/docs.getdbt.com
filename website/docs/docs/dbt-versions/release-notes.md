@@ -18,6 +18,10 @@ Release notes are grouped by month for both multi-tenant and virtual private clo
 
 For <Constant name="fusion_engine" /> updates, refer to the [dbt-fusion changelog](https://github.com/dbt-labs/dbt-fusion/blob/main/CHANGELOG.md).
 
+## May 2026
+
+- **Enhanced** <Constant name="fusion" /> eligibility job actions in <Constant name="fusion" /> eligibility job prompts, where the standalone **Run once on <Constant name="fusion" />** button is now replaced by a **Debug on <Constant name="fusion" />** dropdown. You can choose **Debug in Studio**, **Debug in Studio with Copilot** (when AI features are enabled), or **Run once on <Constant name="fusion" />**. The one-time run option remains available and is temporarily disabled while a Fusion run request is pending.
+
 ## April 2026
 
 - **Beta**: DuckDB is now supported in the <Constant name="fusion_engine" /> CLI, which lets you run local dbt projects without a warehouse account. For more information, refer to [Connect DuckDB](/docs/local/connect-data-platform/duckdb-setup).
